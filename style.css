@@ -1,0 +1,42 @@
+body {
+    background-color: lavenderblush;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid plum;
+    border-radius: 20px;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: darkviolet;
+    box-shadow: 10px 10px 5px;
+}
+
+#ques {
+    font-size: 40px;
+    text-align: center;
+    box-shadow: inset;
+    color: indianred;
+    text-shadow: 40px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 30px;
+}
